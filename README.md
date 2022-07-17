@@ -75,9 +75,9 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 ##  Templates to Follow
 
-- [Feature request](https://github.com/soujo/codeaon/blob/main/.github/issue_template/feature_request.md)
-- [Bug Report](https://github.com/soujo/codeaon/blob/main/.github/issue_template/bug_report.md)
-- [Pull Request](https://github.com/soujo/codeaon/blob/main/.github/pullrequest_template.md)
+- [Feature request](https://github.com/soujo/codeaon/blob/main/.github/issue_templates/feature_request.md)
+- [Bug Report](https://github.com/soujo/codeaon/blob/main/.github/issue_templates/bug_report.md)
+- [Pull Request](https://github.com/soujo/codeaon/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 **Note** : One should follow these templates while creating a new issue or pull request.
 
@@ -87,7 +87,7 @@ Subsequently, also go through the GitHub documentation on [creating a pull reque
 
 Folder structure of this project for your reference 
 
-```bash
+```
 ├── src
 │   ├── cloudinary
 │   ├── db
@@ -164,7 +164,7 @@ Create a `.env` file then edit it with your settings. You will need:
 <table>
 <tr>
  <td align="center">
-<a href=""><img src="" width=100px height=100px /><br /><sub><b>KGEC Summer Of Code</b></sub></a>
+<a href="#"><img src="" width=100px height=100px /><br /><sub><b>KGEC Summer Of Code</b></sub></a>
  </td>
 </tr>
 </table>
