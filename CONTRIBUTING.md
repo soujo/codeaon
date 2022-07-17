@@ -1,4 +1,4 @@
-# 🎇Contributing Guidelines
+# Contributing Guidelines
 
 This documentation contains a set of guidelines to help you during the contribution process. 
 
@@ -6,18 +6,18 @@ I'm happy to welcome all the contributions from anyone willing to add new script
 **no contribution is too small.**
 
 
-## 💻Before Contributing
+## Before Contributing
 
 Welcome to [soujo/codeaon](https://github.com/soujo/codeaon). Before sending your pull requests, make sure that you **read the whole
 guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
 
 
-## 🙌Contribution
+## Contribution
 
 Any contribution is accepted, from fixing grammatical mistakes to implementing complex scripts. Please read this section if you are contributing your work.
 
 
-### 🔖Steps to Contribute
+### Steps to Contribute
 
 Following are the steps to guide you:
 
@@ -45,14 +45,14 @@ Following are the steps to guide you:
 * Step 7: Create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
 
 
-### 🔨Note:
+### Note:
 
 > - Do not edit/delete someone else's script in this repository. You can only insert new files/folder in this repository.
 
   > - Give a meaningful name to whatever file or folder you are adding.
 
 
-## 🔑Guidelines
+## Guidelines
 
 1. Welcome to this repository, if you are here as open source program participant/contributor.
 2. Participants / contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
@@ -78,7 +78,7 @@ another person in the queue.
 20. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
 
 
-### 🧲Pull Requests Review Criteria
+### Pull Requests Review Criteria
 
 1. Please fill the **[PR Template](https://github.com/soujo/codeaon/blob/main/.github/pullrequest_template.md)** properly while making a Pull Request.
 2. You must add your script into the respective **folders**.
@@ -88,7 +88,7 @@ another person in the queue.
 6. For any queries or discussions, please feel free to drop a message.
 
 
-## 📍Other points to remember while submitting your work:
+## Other points to remember while submitting your work:
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
@@ -102,14 +102,7 @@ please contact before doing so.
 - Do not update the [README.md](https://github.com/soujo/codeaon/blob/main/README.md) and [Contributing_Guidelines.md](https://github.com/soujo/codeaon/blob/main/CONTRIBUTING.md).
 
 
-## 📖Resources
-
-1. Markdown : Markdown is a lightweight markup language like HTML, with plain text formatting syntax. 
-
-2. Git : Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
-
-
-## 🤔Need more help?
+## Need more help?
 
 You can refer to the following articles on basics of Git and Github and also contact me, in case you are stuck:
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
