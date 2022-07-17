@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container h3 {
+    color: rgb(255, 255, 255);
+    font-size: 3.2rem;
+    /* font-family: serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.container p {
+    font-size: 1.4rem;
+    width: 70%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#5427cf,#6f42c1);
+    background-size: cover;
+    padding: 3rem;
+    background-position: center center;
+
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="email"] {
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: pointer;
+    background: #e907d4;
+    color: #fff;
+    
+}
+
+input[type="submit"]:hover {
+    /* background: #9b5de5; */
+    cursor: pointer;
+    /* font-weight: bolder;
+    color: black; */
+}
+
+
