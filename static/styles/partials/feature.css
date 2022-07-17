@@ -1,0 +1,93 @@
+:root {
+  --clr-main-bg: #fff;
+  --clr-text: #000;
+  --clr-medium-light: #686868;
+  --clr-accent-light: #9900f8;
+  --clr-accent: #7d00c9;
+  --clr-underline: #83a4ff;
+  --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --gen-padding: 24px 40px;
+
+  --gen-transition: 0.2s ease-in-out;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--clr-main-bg);
+  font-weight: var(--fw-light);
+  line-height: 1.6rem;
+}
+.section-title {
+  padding: var(--gen-padding);
+}
+.section-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  line-height: 3rem;
+}
+span {
+  color: var(--clr-accent);
+}
+.section-para {
+  padding: 18px 117px;
+}
+.row {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+.card {
+  width: 363px;
+  border-radius: 5px;
+  margin: 20px 10px 10px;
+  background-color: gainsboro;
+  transition: var(--gen-transition);
+  box-shadow: var(--clr-box-shadow);
+}
+.card-logo {
+  width: 80px;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 134px;
+}
+.card-logo i {
+  font-size: 35px;
+  height: 3px;
+}
+
+.card-header {
+  text-align: center;
+  padding: var(--gen-padding);
+}
+.card-body {
+  padding: var(--gen-padding);
+  text-align: center;
+  font-style: 18px;
+}
+.card-body p {
+  position: relative;
+  bottom: 44px;
+}
+.card:hover {
+  background-color: rgb(241, 241, 241);
+  transform: scale(1.05);
+}
+.card:hover i {
+  font-size: 35px;
+  height: 3px;
+  color: var(--clr-accent);
+}
