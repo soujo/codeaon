@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #828bb2; */
+    background-image: linear-gradient(#5427cf,#6f42c1);
+    padding: 25px 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+h2 {
+    padding: 0.6rem 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+.list-items{
+    /* border: 2px solid red; */
+    margin-right: 50px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 3px;
+    font-family: 'Recursive', sans-serif;
+    line-height: 1.625em;
+    /* font-weight: bold; */
+}
+
+ul li a {
+    cursor: pointer;
+
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: white;
+}
