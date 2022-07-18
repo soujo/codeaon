@@ -1,0 +1,108 @@
+:root {
+  --clr-main-bg: #fff;
+  --clr-text: #000;
+  --clr-medium-light: #686868;
+  --clr-accent-light: #9900f8;
+  --clr-accent: #7d00c9;
+  --clr-underline: #83a4ff;
+  --clr-box-shadow: rgba(0, 0, 0, 0.25);
+
+  --fw-200: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --gen-padding: 24px 40px;
+
+  --gen-transition: 0.2s ease-in-out;
+}
+
+.footer-container {
+  background-color: #170f3e;
+  padding-bottom: 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 40px;
+}
+
+.column {
+  padding: 0px 15px;
+}
+
+.column ul li {
+  list-style: none;
+  margin: 0 3px 15px;
+}
+
+.column ul li a {
+  color: #8b8bb2;
+  font: 14px "Roboto", sans-serif;
+  list-style-type: none;
+
+  text-decoration: none;
+}
+
+.column ul li a:hover {
+  color: white;
+}
+
+.footer-heading {
+  margin: 0 0 35px 1px;
+  font: 25px "Playfair Display", serif;
+  color: white;
+  font-weight: bolder;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 55px;
+  margin-top: 70px;
+  width: 72%;
+}
+
+.icon {
+  margin: 0 0 0 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #363a4b;
+  text-decoration: none;
+  color: white;
+}
+
+.icon:hover {
+  background: rgb(100, 43, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(100, 43, 233, 1) 0%,
+    rgba(221, 27, 231, 1) 100%
+  );
+}
+
+.wave {
+  width: 100%;
+  margin: 0;
+}
+
+.left-text p {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
