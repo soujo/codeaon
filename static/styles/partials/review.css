@@ -1,10 +1,4 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/* external css: flickity.css */
 :root {
     --fs-hero-head: 2.5rem;
     --fs-hero-desc: 1.5rem;
@@ -27,40 +21,82 @@
   
     
   }
-.hero-container{
-    padding-top: 6rem;
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+
+.carousel-cell {
+  width: 25rem;
+  height: 20rem;
+  margin-right: 10px;
+  /* background: #8C8; */
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 20rem;
+  font-size: 80px;
+  /* color: white; */
+}
+ 
+body { font-family: sans-serif; }
+  
+
+  
+  /* .review-page {
+    width: 25rem;
+    height: 20rem;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }  */
+
+ .review-page{
+    padding: 3rem 4rem 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:  100px, 0;
-    flex-direction: row;
+    
     color: var(--color-text);
-    height: 100vh;
+    margin: 0.25rem;
+    min-width: 47rem;
+    z-index: 1;
+    background-image: linear-gradient(160deg, var(--primary-grad)50%, var(--secondary-grad));
 }
-.hero-heading{
+
+.heading{
     margin-bottom: 2rem;
     font-family: 'Merriweather', serif;
     font-weight: var(--fw-bold);
     font-size: var(--fs-hero-head);
     
 }
-.hero-desc{
+.desc{
     margin-bottom: 7rem;
 
     font-size: var(--fs-hero-desc);
 
 }
 
-.hero-col-text{
+.col-text{
     flex-basis: 40%;
     position: relative;
     margin-left: 8%;
     margin-top: 7%;   
-}
+} 
 
 
 
-.hero-col-img{
+.col-img{
    position: relative;
    flex-basis: 60%;
    display: flex;
@@ -70,12 +106,6 @@
 
 }
 
-.hero-image{
-    height: 550px;
+.image{
+    height: 25rem;
 }
-
-.hero-container{
-    background-image: linear-gradient(160deg, var(--primary-grad)50%, var(--secondary-grad));
-
-}
-
