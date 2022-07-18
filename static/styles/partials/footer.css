@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --clr-main-bg: #fff;
   --clr-text: #000;
@@ -29,16 +34,16 @@
   margin-bottom: 40px;
 }
 
-.column {
+.footer-column {
   padding: 0px 15px;
 }
 
-.column ul li {
+.footer-column ul li {
   list-style: none;
   margin: 0 3px 15px;
 }
 
-.column ul li a {
+.footer-column ul li a {
   color: #8b8bb2;
   font: 14px "Roboto", sans-serif;
   list-style-type: none;
@@ -46,7 +51,7 @@
   text-decoration: none;
 }
 
-.column ul li a:hover {
+.footer-column ul li a:hover {
   color: white;
 }
 
@@ -57,12 +62,12 @@
   font-weight: bolder;
 }
 
-.copyright-container {
+.footer-copyright-container {
   display: flex;
   justify-content: center;
 }
 
-.copyright {
+.footer-copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +76,7 @@
   width: 72%;
 }
 
-.icon {
+.footer-social-icon {
   margin: 0 0 0 5px;
   padding: 10px;
   text-align: center;
@@ -80,7 +85,7 @@
   color: white;
 }
 
-.icon:hover {
+.footer-social-icon:hover {
   background: rgb(100, 43, 233);
   background: linear-gradient(
     90deg,
@@ -89,20 +94,16 @@
   );
 }
 
-.wave {
+.footer-wave {
   width: 100%;
   margin: 0;
 }
 
-.left-text p {
+.footer-left-text p {
   color: white;
 }
 
-body {
-  margin: 0;
-}
-
-.icons {
+.footer-icons {
   display: flex;
   align-items: center;
 }
