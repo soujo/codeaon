@@ -18,6 +18,19 @@ app.use(urlencoded({ extended: false }));
 app.set("view engine", "ejs");
 app.set("views", views_path);
 
+app.get("/home", (req, res) => {
+    res.status(200).render("index.ejs");
+});
+
+app.get("/login", (req, res) => {
+    res.status(200).render("login.ejs");
+});
+
+app.get("/signup", (req, res) => {
+    res.status(200).render("signup.ejs");
+});
+
+
 
 //* listen
 app.listen(port, () => {
