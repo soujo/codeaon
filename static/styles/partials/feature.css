@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 :root {
   --clr-main-bg: #fff;
   --clr-text: #000;
@@ -17,12 +23,6 @@
   --gen-transition: 0.2s ease-in-out;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--clr-main-bg);
-  font-weight: var(--fw-light);
-  line-height: 1.6rem;
-}
 .section-title {
   padding: var(--gen-padding);
 }
@@ -30,15 +30,15 @@ body {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  line-height: 3rem;
+  line-height: 6rem;
 }
-span {
+.feature-heading {
   color: var(--clr-accent);
 }
 .section-para {
-  padding: 18px 117px;
+  padding: 19px 120px;
 }
-.row {
+.feature-row {
   display: flex;
   width: 80%;
   flex-direction: row;
@@ -48,7 +48,7 @@ span {
   justify-items: center;
   margin: auto;
 }
-.card {
+.feature-card {
   width: 363px;
   border-radius: 5px;
   margin: 20px 10px 10px;
@@ -56,7 +56,7 @@ span {
   transition: var(--gen-transition);
   box-shadow: var(--clr-box-shadow);
 }
-.card-logo {
+.feature-card-logo {
   width: 80px;
   height: 95px;
   display: flex;
@@ -64,29 +64,29 @@ span {
   align-items: center;
   padding: 7px 134px;
 }
-.card-logo i {
+.feature-card-logo i {
   font-size: 35px;
   height: 3px;
 }
 
-.card-header {
+.feature-card-header {
   text-align: center;
   padding: var(--gen-padding);
 }
-.card-body {
+.feature-card-body {
   padding: var(--gen-padding);
   text-align: center;
   font-style: 18px;
 }
-.card-body p {
+.feature-card-body p {
   position: relative;
-  bottom: 44px;
+  bottom: 29px;
 }
-.card:hover {
+.feature-card:hover {
   background-color: rgb(241, 241, 241);
   transform: scale(1.05);
 }
-.card:hover i {
+.feature-card:hover i {
   font-size: 35px;
   height: 3px;
   color: var(--clr-accent);

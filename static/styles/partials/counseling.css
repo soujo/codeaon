@@ -1,4 +1,8 @@
-body {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.counseling-body {
     top: 10vh;
     /* background-image: url(wave.png); */
     background-size: cover;
@@ -18,28 +22,33 @@ body {
     text-align: center;
   }
   
-  .title-large {
+  .counseling-title-large {
     text-align: center;
     color: black;
     padding: 40px;
   }
-  .text-container {
+  .counseling-text-container {
     text-align: left;
     width: 50%;
     float: left;
     padding-right: 10px;
     padding-left:150px;
     width: 450px;
+    height: 250px;
     flex: auto;
+    margin-top: 60px;
   
   }
-  .img-container {
+  .counseling-img-container {
     width: 50%;
     float: right;
     /* padding-right: 10px; */
   }
-  .button{
-      width: 200px;
+  .counseling-img{
+    width: 450px;
+  }
+  .counseling-button{
+      width: 175px;
       height: 40px;
       margin: 10px auto;
       justify-content: center;
@@ -48,29 +57,26 @@ body {
       background: #8558c0;
       font-size: 1.1em;
       font-weight: bold;
-      margin-top: 20px;
+      margin-top: 30px;
       outline: none;
       border: none;
       border-radius: 25px;
       transition: .2s ease-in;
       cursor: pointer;
       float: left;
-      
   }
-  button:hover{
-      background: #512d93;
-  }
-  .botton-container{
+  
+  .counseling-button-container{
       align-self: center;
       padding-left: 150px;
   }
-  .title-large{
-      font-size: 150%;
-      /* text-decoration: underline; */
-      /* text-decoration: rgb(143, 9, 158); */
+  .counseling-button:hover{
+    background-color: #512d93;
+    cursor: pointer;
   }
-  /* #underline{
-     
-      color: #000000;
-      text-decoration-color: rgb(142, 16, 205);
-  } */
+  .counseling-title-large{
+      font-size: 150%;
+    
+  }
+
+  
