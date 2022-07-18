@@ -11,12 +11,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #828bb2; */
     background-image: linear-gradient(#5427cf, #6f42c1);
     padding: 25px 15px;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 
@@ -35,7 +35,6 @@
 }
 
 .codeaon-nav-list-items {
-    /* border: 2px solid red; */
     margin-right: 50px;
 }
 
@@ -51,7 +50,6 @@
     padding: 3px;
     font-family: 'Recursive', sans-serif;
     line-height: 1.625em;
-    /* font-weight: bold; */
 }
 
 .codeaon-nav-list-items li a {

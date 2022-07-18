@@ -18,7 +18,7 @@ app.use(urlencoded({ extended: false }));
 app.set("view engine", "ejs");
 app.set("views", views_path);
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
     res.status(200).render("index.ejs");
 });
 
