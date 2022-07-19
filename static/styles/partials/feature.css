@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--ff-regular);
+  outline: none;
+
 }
 
 :root {
@@ -13,10 +17,22 @@
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
 
+  --ff-header: 'Playfair Display', serif;
+  --ff-regular :'Roboto ', sans-serif;
+
+  --fs-hero-header:48px;
+  --fs-header: 42px;
+  --fs-sub-header:22px;
+  --fs-para:18px;
+  --fs-regular: 14px;
+  --fs-icon:36px;
+  --fs-small-icon:24px;
+
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
+  --fw-bolder:900;
 
   --gen-padding: 24px 40px;
 
@@ -29,11 +45,14 @@
 .section-heading {
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: var(--fs-header);
+  font-family: var(--ff-header);
+  font-weight: 900;
   line-height: 6rem;
 }
 .feature-heading {
   color: var(--clr-accent);
+  font-family: var(--ff-header);
 }
 .section-para {
   padding: 19px 120px;
@@ -64,13 +83,19 @@
   padding: 7px 149px;
 }
 .feature-card-logo i {
-  font-size: 35px;
+  font-size: var(--fs-icon);
   height: 3px;
 }
 
 .feature-card-header {
   text-align: center;
   padding: var(--gen-padding);
+}
+
+.feature-card-header h1{
+  font-family: var(--ff-header);
+  font-size: var(--fs-para);
+  font-weight: var(--fw-bold);
 }
 .feature-card-body {
   padding: var(--gen-padding);
@@ -86,7 +111,6 @@
   transform: scale(1.05);
 }
 .feature-card:hover i {
-  font-size: 35px;
   height: 3px;
   color: var(--clr-accent);
 }
