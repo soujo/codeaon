@@ -49,12 +49,11 @@
   margin: auto;
 }
 .feature-card {
-  width: 363px;
-  border-radius: 5px;
+  width: 30%;
+  border-radius: 7px;
   margin: 20px 10px 10px;
   background-color: gainsboro;
   transition: var(--gen-transition);
-  box-shadow: var(--clr-box-shadow);
 }
 .feature-card-logo {
   width: 80px;
@@ -62,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px 134px;
+  padding: 7px 149px;
 }
 .feature-card-logo i {
   font-size: 35px;
