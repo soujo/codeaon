@@ -40,29 +40,28 @@
   --gen-transition: 0.2s ease-in-out;
 }
 
-body {
+.container-signup-container {
 	/* background: linear-gradient(90deg, #dcdcdc,#ffffff); */
 	align-content: center;
 	background-repeat: no-repeat;
 	background-color: #fff;		
 }
 
-.container {
+.signup-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
-	/* height: 100vh; */
+	/* min-height: 100%; */
+	height: 100vh;
 	overflow-y: hidden;
-	overflow-x: hidden;
 	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-
+    
 }
 
 .screen {		
 	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
 	position: relative;	
-	height: 620px;
+	height: 600px;
 	width: 360px;	
 	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
@@ -91,7 +90,7 @@ body {
 }
 
 .screen__background__shape1 {
-	height:620px;
+	height: 620px;
 	width: 652px;
 	background: #FFF;	
 	top: -50px;
@@ -134,7 +133,8 @@ body {
 
 .signup__field {
 	padding: 20px 0px;	
-	position: relative;	
+	position: relative;
+	
 }
 
 .signup__icon {
@@ -143,14 +143,24 @@ body {
 	color: #7875B5;
 }
 
-.signup__input {
+.signup__input-name {
 	border: none;
 	border-bottom: 2px solid #D1D1D4;
 	background: none;
 	padding: 10px;
-	padding-left: 24px;
+	padding-left: 25px;
 	font-weight: 700;
 	width: 90%;
+	transition: .2s;
+}
+.signup__input-user {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 25px;
+	font-weight: 700;
+	width: 91.5%;
 	transition: .2s;
 }
 
@@ -164,7 +174,8 @@ body {
 .signup__submit {
 	background: #fff;
 	font-size: 14px;
-	margin-top: 30px;
+	/* margin-top: 30px; */
+	margin-top: 20px;
 	padding: 16px 20px;
 	border-radius: 26px;
 	border: 1px solid #D4D3E8;
@@ -177,6 +188,7 @@ body {
 	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
 	transition: .2s;
+	justify-content: center;
 }
 
 .signup__submit:active,
@@ -192,39 +204,13 @@ body {
 	color: #7875B5;
 }
 
-.social-login {	
-	position: absolute;
-	height: 140px;
-	width: 160px;
-	text-align: center;
-	bottom: 0px;
-	right: 0px;
-	color: #fff;
-}
-
-.social-icons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.social-login__icon {
-	padding: 20px 10px;
-	color: #fff;
-	text-decoration: none;	
-	text-shadow: 0px 0px 8px #7875B5;
-}
-
-.social-login__icon:hover {
-	transform: scale(1.5);	
-}
-input{
-	justify-content: center;
-}
-.button-login__submit{
-	padding: 2px;
+.button-signup__submit{
+	/* padding: 2px; */
 	border-radius: 10px;
-	margin-top: 10px;
+	/* margin-top: 10px; */
+}
+.fa-user:before{
+	width: 18px;
 }
 .new-user{
     padding-top: 2px;
@@ -232,8 +218,7 @@ input{
 	padding-left: 1%;
 }
 
-.new-user a,
-.new-user p{
+.new-user a,p{
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	color: #0000EE;
