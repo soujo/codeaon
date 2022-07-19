@@ -38,6 +38,8 @@
 
   --gen-transition: 0.2s ease-in-out;
 
+  /* For hero section  */
+
   --fs-hero-head: 2.5rem;
   --fs-hero-desc: 1.5rem;
   --fs-medium-light: #686868;
