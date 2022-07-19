@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: var(--ff-regular);
+  outline: none;
+
 }
 
 :root {
@@ -12,10 +17,22 @@
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
 
+  --ff-header: 'Playfair Display', serif;
+  --ff-regular :'Roboto ', sans-serif;
+
+  --fs-hero-header:48px;
+  --fs-header: 42px;
+  --fs-sub-header:22px;
+  --fs-para:18px;
+  --fs-regular: 14px;
+  --fs-icon:36px;
+  --fs-small-icon:24px;
+
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
+  --fw-bolder:900;
 
   --gen-padding: 24px 40px;
 

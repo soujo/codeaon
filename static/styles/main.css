@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
 
 :root {
   --clr-main-bg: #fff;
@@ -11,10 +10,22 @@
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
 
+  --ff-header: 'Playfair Display', serif;
+  --ff-regular :'Roboto ', sans-serif;
+
+  --fs-hero-header:48px;
+  --fs-header: 42px;
+  --fs-sub-header:22px;
+  --fs-para:18px;
+  --fs-regular: 14px;
+  --fs-icon:36px;
+  --fs-small-icon:24px;
+
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
+  --fw-bolder:900;
 
   --gen-padding: 24px 40px;
 
@@ -29,6 +40,7 @@
   box-sizing: border-box;
   outline: none;
   -webkit-tap-highlight-color: transparent;
+  font-family: var(--ff-regular);
 }
 
 ::-webkit-scrollbar {
@@ -90,10 +102,5 @@ body.dark-theme {
 } */
 
 body {
-  font-family: "Montserrat", sans-serif;
-  color: var(--clr-medium-light);
-  font-size: 16px;
-  background-color: var(--clr-main-bg);
-  position: relative;
-  z-index: 0;
+  font-family: var(--ff-regular);
 }
