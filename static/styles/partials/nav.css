@@ -16,8 +16,9 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 20;
 }
+
 
 
 
@@ -25,7 +26,7 @@
     padding: 0.6rem 0;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 30px;
     color: white;
     font-weight: bold;
 }
@@ -63,4 +64,5 @@
 .codeaon-nav-list-items :hover {
     font-weight: bolder;
     color: white;
+    font-weight: 600;
 }
