@@ -4,26 +4,21 @@
 }
 
 .counselling-body {
-    top: 10vh;
-    /* background-image: url(wave.png); */
-    /* background-repeat: no-repeat;
-    background-position: bottom; */
+
     color: #828bb2;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
-    margin: 0;
+    margin-top: 2rem;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #0b0c0e;
     text-align: center;
     height: 85vh;
-    border-style: solid;
-    
-   
+       
   }
   
   .counselling-title-large {
@@ -40,7 +35,6 @@
     text-align: left;
     width: 50%;
     align-self: flex-start;
-    /* float: left; */
     padding-right: 10px;
     padding-left:150px;
     width: 450px;
@@ -51,9 +45,7 @@
   }
   .counselling-img-container {
     width: 50%;
-    /* float: right; */
     align-self: flex-end;
-    /* padding-right: 10px; */
   }
   .counselling-img{
     width: 450px;
@@ -63,7 +55,6 @@
       height: 40px;
       margin: 10px auto;
       justify-content: center;
-      /* display: block; */
       color: #fff;
       background: #8558c0;
       font-size: 1.1em;
@@ -79,7 +70,6 @@
   
   .counselling-button-container{
       align-self: left;
-      /* padding-left: 150px; */
   }
   .counselling-button:hover{
     background-color: #512d93;
