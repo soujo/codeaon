@@ -6,17 +6,16 @@
 }
 
 .newsletter-container h3 {
-    color: rgb(255, 255, 255);
-    font-size: 3.2rem;
-    /* font-family: serif; */
-    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 51.2px;
+    font-family: var(--ff-header-);
 }
 
 .newsletter-container p {
-    font-size: 1.4rem;
+    font-size: 22.4px;
     width: 70%;
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--ff-regular);
 }
 
 .newsletter-container {
@@ -26,7 +25,7 @@
     text-align: center;
     background-image: linear-gradient(#5427cf, #6f42c1);
     background-size: cover;
-    padding: 3rem;
+    padding: 48px;
     background-position: center center;
 
 }

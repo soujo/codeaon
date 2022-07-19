@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #828bb2; */
     background-image: linear-gradient(#5427cf, #6f42c1);
     padding: 25px 15px;
     position: fixed;
@@ -24,8 +19,8 @@
 
 
 .codeaon-nav-heading {
-    padding: 0.6rem 0;
-    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+    font-family: var(--ff-header);
     font-weight: bold;
     margin-left: 30px;
     color: white;
@@ -37,7 +32,6 @@
 }
 
 .codeaon-nav-list-items {
-    /* border: 2px solid red; */
     margin-right: 50px;
 }
 
@@ -51,9 +45,8 @@
     display: inline-block;
     list-style: none;
     padding: 3px;
-    font-family: 'Recursive', sans-serif;
-    line-height: 1.625em;
-    /* font-weight: bold; */
+    font-family: var(--ff-regular-);
+    line-height: 26px;
 }
 
 .codeaon-nav-list-items li a {
