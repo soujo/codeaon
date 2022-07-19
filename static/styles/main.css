@@ -87,7 +87,6 @@ html {
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
 }
-
 body.dark-theme {
   --clr-main-bg: #000;
   --clr-light: #ffe3fe;
@@ -104,3 +103,4 @@ body.dark-theme {
 body {
   font-family: var(--ff-regular);
 }
+Foote

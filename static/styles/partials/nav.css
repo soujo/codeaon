@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
 
 * {
@@ -55,8 +56,8 @@
 
 
 .codeaon-nav-heading {
-    padding: 0.6rem 0;
-    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+    font-family: var(--ff-header);
     font-weight: bold;
     margin-left: 30px;
     color: white;
@@ -81,8 +82,8 @@
     display: inline-block;
     list-style: none;
     padding: 3px;
-    font-family: 'Recursive', sans-serif;
-    line-height: 1.625em;
+    font-family: var(--ff-regular-);
+    line-height: 26px;
 }
 
 .codeaon-nav-list-items li a {
@@ -96,5 +97,26 @@
 .codeaon-nav-list-items :hover {
     font-weight: bolder;
     color: white;
-    font-weight: 600;
+    font-weight: var(--fw-bold);
+}
+
+.codeaon-navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.codeaon-navbar-btn{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.2rem;
+    border-radius: 4px;
+    margin-right: 3rem;
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-bold);
+    color: #5427cf;
+    cursor: pointer;
+}
+
+.codeaon-navbar-signup{
+    margin-right: 5px;
 }

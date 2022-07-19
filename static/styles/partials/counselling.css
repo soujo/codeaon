@@ -41,37 +41,42 @@
 
 .counselling-body {
 
-    color: #828bb2;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.625em;
-    position: relative;
+    color: var(--clr-main-bg);
+    font-family:var(--ff-regular);
+    font-size: var(--ff-regular);
+    font-weight: var(--fw-light);
+    
     margin-top: 2rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #0b0c0e;
+    font-size: var(--ff-regular);
+    font-weight: var(--fw-regular);
+    
+    color:var(--clr-text);
     text-align: center;
-    height: 85vh;
-       
+    /* Height of the container */
+    height: 120vh;
+    
+    
   }
   
   .counselling-title-large {
     text-align:left;
-    color: black;
-    padding: 40px;
+    color: var(--clr-text);
+    padding: var(--gen-padding);
     padding-left: 150px;
+    
+  }
+  .counselling-title-large h1{
+    font-family: var(--ff-header);
   }
   .counselling-row{
     display: flex;
     flex-direction: row;
+    
 }
   .counselling-text-container {
     text-align: left;
-    width: 50%;
     align-self: flex-start;
-    padding-right: 10px;
+    padding-right: var(--gen-padding);
     padding-left:150px;
     width: 450px;
     height: 180px;
@@ -89,35 +94,38 @@
   .counselling-button{
       width: 175px;
       height: 40px;
-      margin: 10px auto;
+      
       justify-content: center;
-      color: #fff;
-      background: #8558c0;
-      font-size: 1.1em;
-      font-weight: bold;
+      color: var(--clr-main-bg);
+      background: var(--clr-accent-light);
+      font-size: var(--fs-regular);
+      font-weight: var(--fw-bold);
       margin-top: 30px;
       outline: none;
       border: none;
       border-radius: 25px;
-      transition: .2s ease-in;
+      transition: var(--gen-transition);
       cursor: pointer;
       justify-content: left;
   }
   
   .counselling-button-container{
-      align-self: left;
+      align-self: flex-start;
+      justify-content: flex-end;
+      float: left;
   }
   .counselling-button:hover{
-    background-color: #512d93;
+    background-color: var(--clr-accent);
     cursor: pointer;
   }
   .counselling-title-large{
-      font-size: 150%;
+      font-size: var(--fs-header);
     
   }
   .counselling-title-codeaon{
     
-    color: #8558c0;
+    color: var(--clr-accent-light);
+    font-family: var(--ff-header);
   }
 
   
