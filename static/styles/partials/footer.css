@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: var(--ff-regular);
   outline: none;
-
 }
 
 :root {
@@ -17,22 +16,22 @@
   --clr-underline: #83a4ff;
   --clr-box-shadow: rgba(0, 0, 0, 0.25);
 
-  --ff-header: 'Playfair Display', serif;
-  --ff-regular :'Roboto ', sans-serif;
+  --ff-header: "Playfair Display", serif;
+  --ff-regular: "Roboto ", sans-serif;
 
-  --fs-hero-header:48px;
+  --fs-hero-header: 48px;
   --fs-header: 42px;
-  --fs-sub-header:22px;
-  --fs-para:18px;
+  --fs-sub-header: 22px;
+  --fs-para: 18px;
   --fs-regular: 14px;
-  --fs-icon:36px;
-  --fs-small-icon:24px;
+  --fs-icon: 36px;
+  --fs-small-icon: 24px;
 
   --fw-200: 200;
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 700;
-  --fw-bolder:900;
+  --fw-bolder: 900;
 
   --gen-padding: 24px 40px;
 
@@ -62,7 +61,8 @@
 
 .footer-column ul li a {
   color: #8b8bb2;
-  font: 14px "Roboto", sans-serif;
+  font-style: var(--ff-regular);
+  font-size: var(--fs-regular);
   list-style-type: none;
 
   text-decoration: none;
@@ -74,9 +74,10 @@
 
 .footer-heading {
   margin: 0 0 35px 1px;
-  font: 25px "Playfair Display", serif;
+  font-style: var(--ff-header);
+  font-size: var(--fs-sub-header);
   color: white;
-  font-weight: bolder;
+  font-weight: var(--fw-bolder);
 }
 
 .footer-copyright-container {
