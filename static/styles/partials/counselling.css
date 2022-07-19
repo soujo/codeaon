@@ -2,10 +2,10 @@
   margin: 0px;
   padding: 0px;
 }
-.counseling-body {
+
+.counselling-body {
     top: 10vh;
     /* background-image: url(wave.png); */
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     color: #828bb2;
@@ -18,36 +18,40 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #0b0c0e;
     text-align: center;
+    height: 85vh;
+    /* border-style: solid; */
+    
+   
   }
   
-  .counseling-title-large {
+  .counselling-title-large {
     text-align: center;
     color: black;
     padding: 40px;
   }
-  .counseling-text-container {
+  .counselling-text-container {
     text-align: left;
     width: 50%;
     float: left;
     padding-right: 10px;
     padding-left:150px;
     width: 450px;
-    height: 250px;
+    height: 180px;
     flex: auto;
     margin-top: 60px;
   
   }
-  .counseling-img-container {
+  .counselling-img-container {
     width: 50%;
     float: right;
     /* padding-right: 10px; */
   }
-  .counseling-img{
+  .counselling-img{
     width: 450px;
   }
-  .counseling-button{
+  .counselling-button{
       width: 175px;
       height: 40px;
       margin: 10px auto;
@@ -66,15 +70,15 @@
       float: left;
   }
   
-  .counseling-button-container{
+  .counselling-button-container{
       align-self: center;
       padding-left: 150px;
   }
-  .counseling-button:hover{
+  .counselling-button:hover{
     background-color: #512d93;
     cursor: pointer;
   }
-  .counseling-title-large{
+  .counselling-title-large{
       font-size: 150%;
     
   }
