@@ -37,6 +37,14 @@
   --gen-padding: 24px 40px;
 
   --gen-transition: 0.2s ease-in-out;
+
+  --fs-hero-head: 2.5rem;
+  --fs-hero-desc: 1.5rem;
+  --fs-medium-light: #686868;
+  --color-text: #fff;
+
+  --primary-grad: #6f42c1;
+  --secondary-grad: #5427cf;
 }
 
 .hero-container{
