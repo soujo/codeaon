@@ -30,6 +30,11 @@ app.get("/signup", (req, res) => {
     res.status(200).render("signup.ejs");
 });
 
+app.get("/contactUs", (req, res) => {
+    res.status(200).render("contact-us.ejs");
+});
+
+
 
 
 //* listen
