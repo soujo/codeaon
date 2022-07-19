@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
 
 * {
@@ -55,7 +56,7 @@
 
 
 .codeaon-nav-heading {
-    padding: 0.6rem 0;
+    padding: 10px 0;
     font-family: var(--ff-header);
     font-weight: bold;
     margin-left: 30px;
@@ -68,7 +69,7 @@
 }
 
 .codeaon-nav-list-items {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .navbar-codeaon li a {
@@ -81,8 +82,8 @@
     display: inline-block;
     list-style: none;
     padding: 3px;
-    font-family: 'Recursive', sans-serif;
-    line-height: 1.625em;
+    font-family: var(--ff-regular-);
+    line-height: 26px;
 }
 
 .codeaon-nav-list-items li a {
