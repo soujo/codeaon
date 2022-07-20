@@ -56,7 +56,7 @@ body {
   color: var(--clr-text);
   text-align: center;
   /* Height of the container */
-  height: 120vh;
+  height: 85vh;
 
 
 }
@@ -71,6 +71,7 @@ body {
 
 .counselling-title-large h1 {
   font-family: var(--ff-header);
+  font-size: var(--ff-header);
 }
 
 .counselling-row {

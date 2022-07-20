@@ -84,7 +84,7 @@ body {
     display: inline-block;
     list-style: none;
     padding: 3px;
-    font-family: var(--ff-regular-);
+    font-family: var(--ff-regular);
     line-height: 26px;
 }
 
@@ -100,6 +100,7 @@ body {
     font-weight: bolder;
     color: white;
     font-weight: var(--fw-bold);
+    transition: var(--gen-transition);
 }
 
 .codeaon-navbar-right {
