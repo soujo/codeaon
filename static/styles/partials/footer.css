@@ -77,7 +77,7 @@ body {
 
 .footer-heading {
   margin: 0 0 35px 1px;
-  font-style: var(--ff-header);
+  font-family: var(--ff-header);
   font-size: var(--fs-sub-header);
   color: white;
   font-weight: var(--fw-bolder);
