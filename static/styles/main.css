@@ -40,7 +40,6 @@
   box-sizing: border-box;
   outline: none;
   -webkit-tap-highlight-color: transparent;
-  font-family: var(--ff-regular);
 }
 
 ::-webkit-scrollbar {
@@ -103,4 +102,3 @@ body.dark-theme {
 body {
   font-family: var(--ff-regular);
 }
-Foote
