@@ -3,8 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--ff-regular);
   outline: none;
+}
+
+body {
+  font-family: var(--ff-regular);
 }
 
 :root {
@@ -58,6 +61,7 @@
 .blog-post-heading:hover {
   color: white;
 }
+
 .blog1-img {
   overflow: hidden;
   position: relative;
