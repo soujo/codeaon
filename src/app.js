@@ -34,6 +34,10 @@ app.get("/contactUs", (req, res) => {
     res.status(200).render("contact-us.ejs");
 });
 
+app.get("/blogs", (req, res) => {
+    res.status(200).render("blog.ejs");
+});
+
 
 
 
