@@ -51,7 +51,7 @@
   font-weight: var(--fw-bold);
   position: absolute;
   width: 40%;
-  padding: 85px 50px;
+  padding: 70px 50px;
   left: 5%;
 }
 .sub-heading {
@@ -66,7 +66,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  width: 862px;
+  width: 828px;
   position: relative;
   margin: 12% 40%;
 }
@@ -111,7 +111,7 @@
 /* Hide the images by default */
 .Slides {
   display: none;
-  width: 52vw;
+  width: 48vw;
 }
 
 /* Next & previous buttons */
