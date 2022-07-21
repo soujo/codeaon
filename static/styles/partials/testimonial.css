@@ -48,7 +48,7 @@ body {
   font-weight: var(--fw-bold);
   position: absolute;
   width: 40%;
-  padding: 85px 50px;
+  padding: 75px 25px;
   left: 5%;
 }
 .sub-heading {
@@ -63,7 +63,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 862px;
+  width: 828px;
   position: relative;
   margin: 12% 40%;
 }
@@ -74,7 +74,6 @@ body {
 
 .carousel-text {
   width: 100%;
-
   padding: 0px 6px 0 98px;
 }
 
@@ -113,7 +112,7 @@ body {
 /* Hide the images by default */
 .Slides {
   display: none;
-  width: 52vw;
+  width: 48vw;
 }
 
 /* Next & previous buttons */
