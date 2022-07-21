@@ -35,7 +35,6 @@
 }
 .cards-container {
   display: flex;
-  margin: 40px;
 }
 .blog-cards {
   width: 27%;
@@ -69,7 +68,8 @@
   text-align: left;
 }
 .blog-button {
-  padding: 0 139px;
+  display: flex;
+  justify-content: center;
 }
 .blog-btn {
   margin-top: 10px;
