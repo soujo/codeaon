@@ -58,21 +58,17 @@ body {
   display: contents;
 }
 
-.blog-post-heading:hover {
-  color: white;
-}
-
 .blog1-img {
   overflow: hidden;
   position: relative;
 }
 
-.image {
+.blog1-image {
   width: 100%;
   transition: transform 1s ease;
 }
 
-.image:hover {
+.blog1-image:hover {
   transform: scale(1.2);
 }
 
@@ -90,18 +86,22 @@ body {
 }
 
 .blog-post-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background: #7d00c9;
   padding: 1rem;
   position: absolute;
   bottom: 0%;
   border-radius: 3rem;
-  left: 16vw;
+  left: 15vw;
   color: white;
+  width: 400px;
 }
 
 .blog-post-info-small {
-  padding: 0.75rem;
   border-radius: 12px;
+  display: flex;
 }
 
 .blog1-category {
@@ -130,5 +130,6 @@ body {
 }
 
 .blog-post-info-small:hover {
-  font-weight: var(--fw-bold);
+  text-shadow: 0 0 3px white;
+  transition: var(--gen-transition);
 }
