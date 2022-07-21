@@ -41,7 +41,7 @@ body {
   --gen-transition: 0.2s ease-in-out;
 }
 
-.blog-container {
+.blog-showcase-container {
   padding: 16px 32px 16px 0;
   width: 60%;
   margin-left: 23px;
