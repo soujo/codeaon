@@ -55,7 +55,7 @@
 .blog-text-title {
   font-size: var(--fs-sub-header);
   font-weight: 500;
-  padding: 4px;
+  padding: 8px;
   text-align: center;
 }
 .blog-text {
